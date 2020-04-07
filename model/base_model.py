@@ -1,5 +1,5 @@
 import os
-import tensorflow t.v1 as tf
+import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 class BaseModel(object):
