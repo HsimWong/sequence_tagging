@@ -1,7 +1,7 @@
 import numpy as np
 import os
-import tensorflow as tf
-
+import tensorflow t.v1 as tf
+tf.disable_v2_behavior()
 
 from .data_utils import minibatches, pad_sequences, get_chunks
 from .general_utils import Progbar

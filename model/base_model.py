@@ -1,6 +1,6 @@
 import os
-import tensorflow as tf
-
+import tensorflow t.v1 as tf
+tf.disable_v2_behavior()
 
 class BaseModel(object):
     """Generic class for general methods that are not specific to NER"""
